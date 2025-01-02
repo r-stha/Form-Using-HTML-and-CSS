@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("Image/form-image.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.container {
+    background: transparent;
+    width: 500px;
+    color: white;
+    backdrop-filter: blur(50px);
+    padding: 30px 40px;
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.container .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 28px 0;
+}
+
+.input-box input {
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    font-size: 15px;
+    color: white;
+    padding: 20px 15px 20px 10px;
+}
+
+.input-box input::placeholder {
+    margin-left: 50px;
+    color: white;
+}
+
+.remember-forget {
+
+    display: flex;
+    justify-content: space-around;
+    margin: -15px 0px 15px -45px;
+    font-size: 15px;
+}
+
+.remember-forget label {
+    font-size: 20px;
+}
+
+.remember-forget label input {
+
+    color: #fff;
+    margin: 6px;
+}
+
+
+
+.remember-forget a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.register-link {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0px 10px;
+}
+
+.register-link p a {
+
+    color: #fff;
+    text-decoration: none;
+}
+
+ a:hover {
+    border-bottom: 2px solid white;
+
+}
+
