@@ -26,7 +26,7 @@ This project is a **Simple login form** built with **HTML5** and **CSS3**. It fe
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/repository-name.git  
+   git clone https://github.com/r-stha/FORM-USING-HTML-AND-CSS.git  
    ```
 2. **Navigate to the project folder:**
    ```bash
